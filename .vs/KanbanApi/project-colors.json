@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b56f5892-adc7-4b0d-a3bc-1d8945987ead": {
+      "ProjectGuid": "b56f5892-adc7-4b0d-a3bc-1d8945987ead",
+      "DisplayName": "KanbanApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
