@@ -12,7 +12,7 @@ Para realizar o login, é necessário adicionar novos campos (em negrito) na tag
     **"Senha": "lets@123"**
   }
 
-Caso utilize o Swagger para os testes na API, após realizar o login, copie o token gerado e clique no botão * *Authorize* * ![Authorize button](https://drive.google.com/file/d/1C5jAbDKyEvjsAAFVosXko7Q8UhmPLt_5/view?usp=sharing)
+Caso utilize o Swagger para os testes na API, após realizar o login, copie o token gerado e clique no botão * *Authorize* * ![Authorize button](https://drive.google.com/uc?export=view&id=1C5jAbDKyEvjsAAFVosXko7Q8UhmPLt_5)
 irá abrir uma janela, basta adicionar no campo "Value" Bearer + seu token, como mostrado no exemplo e depois clicar em Authorize. Assim toda requisição 
 irá utilizar o token informado.
-![Authorize window](https://drive.google.com/file/d/1Jroqf4szIwhL2vqF-DFpY6UBHU4_ReGe/view?usp=sharing)
+![Authorize window](https://drive.google.com/uc?export=view&id=1Jroqf4szIwhL2vqF-DFpY6UBHU4_ReGe)
