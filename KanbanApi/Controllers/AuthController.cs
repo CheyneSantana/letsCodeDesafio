@@ -23,7 +23,7 @@ namespace KanbanApi
                 if (user.Login == login && user.Senha == password)
                     token = JwtAuth.GenerateToken(user);
                 else
-                    return BadRequest("Usuario e/ou senha inválidos");
+                    return Unauthorized("Usuario e/ou senha inválidos");
 
                 return Ok(new { Token = token });
             }

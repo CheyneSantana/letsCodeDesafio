@@ -1,5 +1,6 @@
 ﻿using KanbanApi.Model;
 using KanbanApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,7 +19,7 @@ namespace KanbanApi.Controllers
             _context = context;
         }
 
-        ////[Authorize]
+        [Authorize]
         [HttpGet, Route("cards")]
         public async Task<IActionResult> getCards()
         {
@@ -27,7 +28,7 @@ namespace KanbanApi.Controllers
             return Ok(cards);
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPost, Route("cards")]
         public async Task<IActionResult> addCard(Card card)
         {
@@ -43,7 +44,7 @@ namespace KanbanApi.Controllers
             }
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpDelete, Route("cards/{id}")]
         public async Task<IActionResult> deleteCard(Guid id)
         {
@@ -60,7 +61,7 @@ namespace KanbanApi.Controllers
             }
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPut, Route("cards/{id}")]
         public async Task<IActionResult> updateCard(Guid id, [FromBody] Card card)
         {

@@ -41,3 +41,4 @@ D:\Cheyne\Documents\projetos\desafio-tecnico-backend\BACK\KanbanApi\KanbanApi\ob
 D:\Cheyne\Documents\projetos\desafio-tecnico-backend\BACK\KanbanApi\KanbanApi\obj\Debug\net6.0\ref\KanbanApi.dll
 D:\Cheyne\Documents\projetos\desafio-tecnico-backend\BACK\KanbanApi\KanbanApi\obj\Debug\net6.0\KanbanApi.pdb
 D:\Cheyne\Documents\projetos\desafio-tecnico-backend\BACK\KanbanApi\KanbanApi\obj\Debug\net6.0\KanbanApi.genruntimeconfig.cache
+D:\Cheyne\Documents\projetos\desafio-tecnico-backend\BACK\KanbanApi\KanbanApi\obj\Debug\net6.0\KanbanApi.csproj.AssemblyReference.cache

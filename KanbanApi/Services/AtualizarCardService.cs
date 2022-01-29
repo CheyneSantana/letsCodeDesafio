@@ -1,5 +1,6 @@
 ﻿using KanbanApi.Model;
 using System;
+using System.Diagnostics;
 
 namespace KanbanApi.Services
 {
@@ -18,6 +19,8 @@ namespace KanbanApi.Services
 
         public void Atualizar()
         {
+            Debug.WriteLine(DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss") + " - Card " + this._id + " - " + this._card.Titulo + " - Alterado");
+
             if (string.IsNullOrEmpty(this._card.Titulo) && string.IsNullOrEmpty(this._card.Lista))
                 throw new Exception("Titulo e lista são obrigatórios");
 
